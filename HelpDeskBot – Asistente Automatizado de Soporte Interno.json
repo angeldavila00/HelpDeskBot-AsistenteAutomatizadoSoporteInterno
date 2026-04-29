@@ -11,7 +11,7 @@
       "type": "n8n-nodes-base.telegramTrigger",
       "typeVersion": 1.2,
       "position": [
-        -1072,
+        -1776,
         0
       ],
       "id": "29c23650-c46b-4289-bb22-b5a3bfbb903c",
@@ -45,7 +45,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        -640,
+        -1344,
         0
       ],
       "id": "522be030-0082-4fab-98bf-1a997f7069d2",
@@ -68,8 +68,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        1216,
-        -1568
+        416,
+        -1504
       ],
       "id": "3c358765-3f04-499e-b670-bd0e82085128",
       "name": "Send a text message",
@@ -156,7 +156,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        -864,
+        -1568,
         0
       ],
       "id": "3ce10fb3-946f-4d7e-9c59-4b128e8ba118",
@@ -175,7 +175,7 @@
       "type": "n8n-nodes-base.wait",
       "typeVersion": 1.1,
       "position": [
-        -16,
+        -720,
         -224
       ],
       "id": "af306314-8ad1-41fd-ac12-b43fbf1dfbf7",
@@ -211,7 +211,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
       "position": [
-        -160,
+        -864,
         0
       ],
       "id": "519f3af1-8595-42da-93de-6105e646954a",
@@ -292,7 +292,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        160,
+        -544,
         -224
       ],
       "id": "e7ea692c-3fb3-4293-8602-8ca69379890b",
@@ -332,7 +332,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
       "position": [
-        320,
+        -384,
         16
       ],
       "id": "f7efeff7-9c13-4fc3-8de7-eb44cbe97aa0",
@@ -413,8 +413,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        800,
-        -1568
+        0,
+        -1504
       ],
       "id": "b3091c6e-4489-44fb-9571-30451f450914",
       "name": "Append or update row in sheet2",
@@ -508,8 +508,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        1008,
-        -1568
+        208,
+        -1504
       ],
       "id": "fc8835bd-0d80-444d-9d0b-64046aea072c",
       "name": "Append or update row in sheet3",
@@ -541,7 +541,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        496,
+        320,
         656
       ],
       "id": "a362808f-db62-42bb-849b-864dd280e275",
@@ -733,7 +733,7 @@
       "type": "n8n-nodes-base.switch",
       "typeVersion": 3.4,
       "position": [
-        720,
+        624,
         1328
       ],
       "id": "bd899014-1252-47ef-b761-a2e9ec43b100",
@@ -924,8 +924,8 @@
       "type": "n8n-nodes-base.switch",
       "typeVersion": 3.4,
       "position": [
-        1008,
-        -784
+        960,
+        -816
       ],
       "id": "33733893-a1c8-4385-ab38-50ea05f3b0ba",
       "name": "Switch2"
@@ -941,8 +941,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        1760,
-        -1424
+        1712,
+        -1456
       ],
       "id": "3c9faeb6-2ce5-4d1a-9845-c848ae5d5c00",
       "name": "Send a text message3",
@@ -985,8 +985,8 @@
       "type": "n8n-nodes-base.wait",
       "typeVersion": 1.1,
       "position": [
-        2464,
-        -1424
+        2416,
+        -1456
       ],
       "id": "450a4fad-cbb7-46a4-998d-ac9eff1e2559",
       "name": "Wait2",
@@ -1003,8 +1003,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        2208,
-        -1424
+        2160,
+        -1456
       ],
       "id": "75b752a1-90ab-4c9d-9cc6-b17aa98e9501",
       "name": "Send a text message4",
@@ -1043,7 +1043,7 @@
       "type": "n8n-nodes-base.filter",
       "typeVersion": 2.3,
       "position": [
-        -400,
+        -1104,
         0
       ],
       "id": "62ee4ef6-308c-4bd7-8ff7-72cd64dba741",
@@ -1134,8 +1134,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        2720,
-        -1424
+        2672,
+        -1456
       ],
       "id": "e6f06955-297a-4a70-a8a3-e7b2bbfb72da",
       "name": "Append or update row in sheet4",
@@ -1173,8 +1173,8 @@
       "type": "n8n-nodes-base.filter",
       "typeVersion": 2.3,
       "position": [
-        816,
-        176
+        832,
+        160
       ],
       "id": "988a9359-8db4-4fc2-9f6c-ea1c35bfac76",
       "name": "Filter1"
@@ -1264,8 +1264,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        1760,
-        -1248
+        1488,
+        -1216
       ],
       "id": "15467c1d-22e2-445e-bcbf-75de19c057eb",
       "name": "Append or update row in sheet5",
@@ -1287,7 +1287,7 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        2432,
+        2224,
         -1248
       ],
       "id": "c384ff45-60a2-4f55-936f-ac78ad87d61e",
@@ -1401,8 +1401,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        2992,
-        352
+        2976,
+        320
       ],
       "id": "6e07adce-7551-4bcb-8ed7-e801008f6503",
       "name": "Send a text message1",
@@ -1435,8 +1435,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        2560,
-        -256
+        2608,
+        -48
       ],
       "id": "9463eed4-d031-4a51-a80c-a2c5308a80a1",
       "name": "Get row(s) in sheet2",
@@ -1458,8 +1458,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        2128,
-        272
+        2256,
+        240
       ],
       "id": "ee55aa90-80da-4c3a-81a7-a6b773957055",
       "name": "Send a text message7",
@@ -1499,8 +1499,8 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
       "position": [
-        2832,
-        -256
+        3104,
+        -144
       ],
       "id": "440afcf0-e832-4c03-a81c-b3af68be3877",
       "name": "If"
@@ -1527,7 +1527,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -1120,
+        -1824,
         -272
       ],
       "typeVersion": 1,
@@ -1543,8 +1543,8 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        528,
-        -1648
+        -272,
+        -1584
       ],
       "typeVersion": 1,
       "id": "3c37fe8e-545f-40d6-b5e7-91334f934446",
@@ -1768,7 +1768,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        4704,
+        4752,
         -1328
       ],
       "id": "83f6d2b9-9c71-48cf-8e45-79c9a62aeb1e",
@@ -1885,8 +1885,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        4688,
-        -1056
+        4768,
+        -1104
       ],
       "id": "e873168a-835d-423e-a629-fa55fdc3dd44",
       "name": "Append or update row in sheet8",
@@ -2002,8 +2002,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        4688,
-        -864
+        4768,
+        -880
       ],
       "id": "a5f39fa1-cd46-4ed4-80ee-d7f1a680cf4f",
       "name": "Append or update row in sheet9",
@@ -2156,8 +2156,8 @@
       "type": "n8n-nodes-base.wait",
       "typeVersion": 1.1,
       "position": [
-        592,
-        -1568
+        -208,
+        -1504
       ],
       "id": "2617f1b6-e87f-4877-a91f-deb741f3cbcb",
       "name": "Wait1",
@@ -2200,7 +2200,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        3152,
+        3360,
         -96
       ],
       "id": "66296a6e-bb13-4375-8815-9e40bf887d02",
@@ -2875,8 +2875,8 @@
       "type": "n8n-nodes-base.wait",
       "typeVersion": 1.1,
       "position": [
-        4176,
-        176
+        4736,
+        192
       ],
       "id": "b86ea7c6-0ba4-4941-82b1-0759b7da133d",
       "name": "Wait8",
@@ -2987,8 +2987,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        4384,
-        176
+        4944,
+        192
       ],
       "id": "d922a34e-f30c-4de2-902e-d61ed885a969",
       "name": "Append or update row in sheet15",
@@ -3006,8 +3006,8 @@
       "type": "n8n-nodes-base.wait",
       "typeVersion": 1.1,
       "position": [
-        4560,
-        176
+        5120,
+        192
       ],
       "id": "98cd8098-6162-4970-96fc-845d2ff87f40",
       "name": "Wait9",
@@ -3098,8 +3098,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        4768,
-        176
+        5328,
+        192
       ],
       "id": "3e2340a3-e90d-4db9-9230-05a5457d86db",
       "name": "Append or update row in sheet16",
@@ -3121,8 +3121,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        4960,
-        160
+        5520,
+        176
       ],
       "id": "149f295e-4cde-445b-8654-dbfd7fc4dde1",
       "name": "Send a text message9",
@@ -3145,8 +3145,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        1456,
-        -160
+        1312,
+        -288
       ],
       "id": "8cacc2b1-8fca-497e-96fb-94a05969fc0b",
       "name": "Send a text message10",
@@ -3185,8 +3185,8 @@
       "type": "n8n-nodes-base.filter",
       "typeVersion": 2.3,
       "position": [
-        1424,
-        -1328
+        1376,
+        -1360
       ],
       "id": "fe160486-aa99-4e6a-a8a8-248304d8f38d",
       "name": "Filter2"
@@ -3284,8 +3284,8 @@
       "type": "n8n-nodes-base.filter",
       "typeVersion": 2.3,
       "position": [
-        4000,
-        192
+        4208,
+        208
       ],
       "id": "ae64ea24-dc81-4d7a-8d59-f8631d840256",
       "name": "Filter5"
@@ -3298,36 +3298,10 @@
       "typeVersion": 1,
       "position": [
         2352,
-        -48
+        16
       ],
       "id": "55ebd331-a3f9-43be-9622-1cb0955fe366",
       "name": "Limit"
-    },
-    {
-      "parameters": {},
-      "type": "n8n-nodes-base.wait",
-      "typeVersion": 1.1,
-      "position": [
-        1504,
-        -1200
-      ],
-      "id": "db03948c-00ce-4bfc-9931-4f8f57c9ede4",
-      "name": "espera",
-      "webhookId": "fe35572f-390f-4c8c-ab8b-927256549c8f"
-    },
-    {
-      "parameters": {
-        "amount": 0.5
-      },
-      "type": "n8n-nodes-base.wait",
-      "typeVersion": 1.1,
-      "position": [
-        1504,
-        -1040
-      ],
-      "id": "2ef19c51-ba56-40d5-b357-0007b7239684",
-      "name": "Wait10",
-      "webhookId": "ea99f97e-ce41-43da-aafc-199a84944cab"
     },
     {
       "parameters": {
@@ -3414,8 +3388,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        1952,
-        -1056
+        2224,
+        -1072
       ],
       "id": "aa11ac29-8917-4ba0-813b-ea4df8070349",
       "name": "Append or update row in sheet17",
@@ -3437,8 +3411,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        1744,
-        -1056
+        1488,
+        -1040
       ],
       "id": "7ee8abc4-367f-447f-9c1e-1b3e008e652b",
       "name": "Send a text message13",
@@ -3449,20 +3423,6 @@
           "name": "Telegram account"
         }
       }
-    },
-    {
-      "parameters": {
-        "amount": 0.5
-      },
-      "type": "n8n-nodes-base.wait",
-      "typeVersion": 1.1,
-      "position": [
-        1504,
-        -864
-      ],
-      "id": "58f5c230-fe8d-4d3d-9623-ae165b2713bb",
-      "name": "Wait11",
-      "webhookId": "55c4301e-e1d8-4267-a03d-1f1599244c1e"
     },
     {
       "parameters": {
@@ -3549,8 +3509,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        1712,
-        -864
+        1488,
+        -880
       ],
       "id": "aef15294-2f78-414e-82e9-8c8e76c9923c",
       "name": "Append or update row in sheet19",
@@ -3572,8 +3532,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        1952,
-        -864
+        2288,
+        -896
       ],
       "id": "f81a8ab1-b099-4dcf-b149-e913dee2173d",
       "name": "Send a text message16",
@@ -3617,20 +3577,6 @@
           "name": "Google Sheets account"
         }
       }
-    },
-    {
-      "parameters": {
-        "amount": 0.5
-      },
-      "type": "n8n-nodes-base.wait",
-      "typeVersion": 1.1,
-      "position": [
-        1488,
-        -656
-      ],
-      "id": "33107f7c-f68c-4331-910b-cb335e30ac7f",
-      "name": "Wait3",
-      "webhookId": "0aa0ca6a-debf-4f64-91c5-b276b5edbe44"
     },
     {
       "parameters": {
@@ -3717,8 +3663,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        1728,
-        -640
+        1488,
+        -688
       ],
       "id": "515578ab-6f11-4259-ad62-6624e13e26a0",
       "name": "Append or update row in sheet20",
@@ -3734,8 +3680,8 @@
       "type": "n8n-nodes-base.limit",
       "typeVersion": 1,
       "position": [
-        4992,
-        -512
+        5088,
+        -368
       ],
       "id": "8282921e-1b6f-4e74-a1d5-2d17e4db4e08",
       "name": "Limit1"
@@ -3747,8 +3693,8 @@
       "type": "n8n-nodes-base.limit",
       "typeVersion": 1,
       "position": [
-        3456,
-        -32
+        3536,
+        0
       ],
       "id": "b56f1d04-edd0-4f44-88d9-4f5821683a4a",
       "name": "Limit2"
@@ -3764,8 +3710,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        1936,
-        -640
+        2304,
+        -752
       ],
       "id": "17c9054d-8f23-44ba-b652-bf09f97dfe25",
       "name": "Send a text message18",
@@ -3813,7 +3759,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.chat.id }}",
-        "text": "=Reporte general de solicitudes \n------------------------------------------\nUltimo Movimiento:\nID: {{ $json.id_ticket }}\nTipo: {{ $json.tipo }}\nPrioridad: {{ $json.prioridad }}\nDescripcion: {{ $json.descripcion }}\nEstado: {{ $json.estado }}\nCreado por: {{ $json.creado_por }}\nFecha de creacion: {{ $json.fecha_creacion }}\n\nIngrese Menu o alguna palabra para regresar al inicio.",
+        "text": "=Reporte general de solicitudes \n-------------------------------------\nUltimo Movimiento:\nID: {{ $('Get row(s) in sheet5').item.json.id_ticket }}\nTipo: {{ $('Get row(s) in sheet5').item.json.tipo }}\nPrioridad: {{ $('Get row(s) in sheet5').item.json.prioridad }}\nDescripcion: {{ $('Get row(s) in sheet5').item.json.descripcion }}\nEstado: {{ $('Get row(s) in sheet5').item.json.estado }}\nCreado por: {{ $('Get row(s) in sheet5').item.json.creado_por }}\nFecha de creacion: {{ $('Get row(s) in sheet5').item.json.fecha_creacion }}\n\nIngrese Menu o alguna palabra para regresar al inicio.",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -3821,8 +3767,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        2112,
-        1312
+        2752,
+        1376
       ],
       "id": "72fbd86c-c7b5-4dc5-aa70-aab9e771c884",
       "name": "Send a text message19",
@@ -3868,8 +3814,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        1248,
-        1056
+        1312,
+        1072
       ],
       "id": "6739125c-4ab3-4e33-9b5c-f8b0690d33fe",
       "name": "Get row(s) in sheet4",
@@ -3907,8 +3853,8 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
       "position": [
-        1600,
-        928
+        1616,
+        880
       ],
       "id": "a5e5a7fb-ba5e-4e46-b4e8-94db66b6b66a",
       "name": "If2"
@@ -3998,7 +3944,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        1904,
+        2160,
         1360
       ],
       "id": "ae2cc4e0-74f5-42d6-bc8b-29193f197a99",
@@ -4095,7 +4041,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        1792,
+        2144,
         880
       ],
       "id": "b988d0cb-b670-4153-82a8-8bed5de45b43",
@@ -4118,8 +4064,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        1968,
-        944
+        2736,
+        896
       ],
       "id": "ca183679-5a3c-4b10-9e76-61cf6302ba01",
       "name": "Send a text message20",
@@ -4296,8 +4242,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        1808,
-        1104
+        2144,
+        1088
       ],
       "id": "2f0e7b04-b16e-4f46-b8cc-f049f35031d8",
       "name": "Append or update row in sheet23",
@@ -4319,8 +4265,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        2000,
-        1136
+        2736,
+        1088
       ],
       "id": "84f763f1-081b-42f7-b863-23f53c522d66",
       "name": "Send a text message21",
@@ -4343,8 +4289,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        1248,
-        1568
+        1408,
+        1664
       ],
       "id": "9acfbf69-7ac5-4dc0-ad9f-6ae6394da0c8",
       "name": "Send a text message14",
@@ -4355,20 +4301,6 @@
           "name": "Telegram account"
         }
       }
-    },
-    {
-      "parameters": {
-        "amount": 0.5
-      },
-      "type": "n8n-nodes-base.wait",
-      "typeVersion": 1.1,
-      "position": [
-        1392,
-        -480
-      ],
-      "id": "5411a30e-0f7f-4f55-8df7-950ef73e3156",
-      "name": "Wait12",
-      "webhookId": "0aa0ca6a-debf-4f64-91c5-b276b5edbe44"
     },
     {
       "parameters": {
@@ -4455,8 +4387,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        1632,
-        -464
+        1504,
+        -512
       ],
       "id": "500030d1-881d-4999-8beb-344c780568ca",
       "name": "Append or update row in sheet24",
@@ -4478,8 +4410,8 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        1840,
-        -464
+        2288,
+        -576
       ],
       "id": "f3c2558b-9382-4356-90f0-85da6c734af8",
       "name": "Send a text message22",
@@ -4518,8 +4450,8 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
       "position": [
-        928,
-        1552
+        1152,
+        1664
       ],
       "id": "61d9b802-9d59-41aa-9c98-57bf8eecee17",
       "name": "If5"
@@ -4609,8 +4541,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        1568,
-        1568
+        2160,
+        1632
       ],
       "id": "2dec7e3d-792d-4a1d-8786-ab00094d007f",
       "name": "Append or update row in sheet25",
@@ -4625,7 +4557,7 @@
       "parameters": {
         "content": "",
         "height": 1216,
-        "width": 2448,
+        "width": 3040,
         "color": "#581919"
       },
       "type": "n8n-nodes-base.stickyNote",
@@ -4645,11 +4577,129 @@
       "type": "n8n-nodes-base.limit",
       "typeVersion": 1,
       "position": [
-        1424,
-        976
+        1456,
+        928
       ],
       "id": "93c06626-a62f-4b21-8411-c5ff874ea0ce",
       "name": "Limit4"
+    },
+    {
+      "parameters": {
+        "amount": 0.5
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1936,
+        -416
+      ],
+      "id": "5411a30e-0f7f-4f55-8df7-950ef73e3156",
+      "name": "Wait12",
+      "webhookId": "0aa0ca6a-debf-4f64-91c5-b276b5edbe44"
+    },
+    {
+      "parameters": {
+        "amount": 0.5
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1888,
+        -1184
+      ],
+      "id": "5079b937-e1aa-413c-9fd8-b31c9bc83d4d",
+      "name": "Wait13",
+      "webhookId": "0aa0ca6a-debf-4f64-91c5-b276b5edbe44"
+    },
+    {
+      "parameters": {
+        "amount": 0.5
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1888,
+        -992
+      ],
+      "id": "661113df-5f91-4781-97a6-114299c778d3",
+      "name": "Wait14",
+      "webhookId": "0aa0ca6a-debf-4f64-91c5-b276b5edbe44"
+    },
+    {
+      "parameters": {
+        "amount": 0.5
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1888,
+        -800
+      ],
+      "id": "e21ce9fd-7131-4908-912a-ee882e3076df",
+      "name": "Wait15",
+      "webhookId": "0aa0ca6a-debf-4f64-91c5-b276b5edbe44"
+    },
+    {
+      "parameters": {
+        "amount": 0.5
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1920,
+        -608
+      ],
+      "id": "5bbb7804-b1c6-4dbd-b25a-6d3f8b4e3c06",
+      "name": "Wait16",
+      "webhookId": "0aa0ca6a-debf-4f64-91c5-b276b5edbe44"
+    },
+    {
+      "parameters": {
+        "content": "## PANTALLA MENU",
+        "height": 1408,
+        "width": 2144,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        832,
+        -1552
+      ],
+      "typeVersion": 1,
+      "id": "a22e90ec-3986-41e7-a8f6-0fd7b7a03263",
+      "name": "Sticky Note4"
+    },
+    {
+      "parameters": {
+        "content": "## TIPO DE PRIORIDAD",
+        "height": 688,
+        "width": 1840,
+        "color": 2
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        4128,
+        -624
+      ],
+      "typeVersion": 1,
+      "id": "001aa652-15cb-4daa-b39e-503a0b08db31",
+      "name": "Sticky Note5"
+    },
+    {
+      "parameters": {
+        "content": "## DESCRIPCION DE SOLICITUD",
+        "height": 448,
+        "width": 1840,
+        "color": 2
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        4128,
+        96
+      ],
+      "typeVersion": 1,
+      "id": "d2c6f8a5-e708-4f60-be35-7db3e3c53f7c",
+      "name": "Sticky Note6"
     }
   ],
   "pinData": {},
@@ -4842,35 +4892,35 @@
         ],
         [
           {
-            "node": "espera",
+            "node": "Append or update row in sheet5",
             "type": "main",
             "index": 0
           }
         ],
         [
           {
-            "node": "Wait10",
+            "node": "Send a text message13",
             "type": "main",
             "index": 0
           }
         ],
         [
           {
-            "node": "Wait11",
+            "node": "Append or update row in sheet19",
             "type": "main",
             "index": 0
           }
         ],
         [
           {
-            "node": "Wait3",
+            "node": "Append or update row in sheet20",
             "type": "main",
             "index": 0
           }
         ],
         [
           {
-            "node": "Wait12",
+            "node": "Append or update row in sheet24",
             "type": "main",
             "index": 0
           }
@@ -4948,7 +4998,7 @@
       "main": [
         [
           {
-            "node": "Send a text message6",
+            "node": "Wait13",
             "type": "main",
             "index": 0
           }
@@ -5209,7 +5259,7 @@
       "main": [
         [
           {
-            "node": "Wait7",
+            "node": "Limit1",
             "type": "main",
             "index": 0
           }
@@ -5220,7 +5270,7 @@
       "main": [
         [
           {
-            "node": "Wait7",
+            "node": "Limit1",
             "type": "main",
             "index": 0
           }
@@ -5359,49 +5409,16 @@
         ]
       ]
     },
-    "espera": {
-      "main": [
-        [
-          {
-            "node": "Append or update row in sheet5",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Wait10": {
-      "main": [
-        [
-          {
-            "node": "Send a text message13",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
     "Append or update row in sheet17": {
       "main": [
         []
-      ]
-    },
-    "Wait11": {
-      "main": [
-        [
-          {
-            "node": "Append or update row in sheet19",
-            "type": "main",
-            "index": 0
-          }
-        ]
       ]
     },
     "Append or update row in sheet19": {
       "main": [
         [
           {
-            "node": "Send a text message16",
+            "node": "Wait15",
             "type": "main",
             "index": 0
           }
@@ -5422,17 +5439,6 @@
     "Send a text message16": {
       "main": [
         []
-      ]
-    },
-    "Wait3": {
-      "main": [
-        [
-          {
-            "node": "Append or update row in sheet20",
-            "type": "main",
-            "index": 0
-          }
-        ]
       ]
     },
     "Limit1": {
@@ -5461,7 +5467,7 @@
       "main": [
         [
           {
-            "node": "Send a text message18",
+            "node": "Wait16",
             "type": "main",
             "index": 0
           }
@@ -5506,7 +5512,7 @@
       "main": [
         [
           {
-            "node": "Append or update row in sheet17",
+            "node": "Wait14",
             "type": "main",
             "index": 0
           }
@@ -5615,22 +5621,11 @@
         ]
       ]
     },
-    "Wait12": {
-      "main": [
-        [
-          {
-            "node": "Append or update row in sheet24",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
     "Append or update row in sheet24": {
       "main": [
         [
           {
-            "node": "Send a text message22",
+            "node": "Wait12",
             "type": "main",
             "index": 0
           }
@@ -5676,6 +5671,61 @@
           }
         ]
       ]
+    },
+    "Wait12": {
+      "main": [
+        [
+          {
+            "node": "Send a text message22",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait13": {
+      "main": [
+        [
+          {
+            "node": "Send a text message6",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait14": {
+      "main": [
+        [
+          {
+            "node": "Append or update row in sheet17",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait15": {
+      "main": [
+        [
+          {
+            "node": "Send a text message16",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait16": {
+      "main": [
+        [
+          {
+            "node": "Send a text message18",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "active": false,
@@ -5683,7 +5733,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "43486569-b828-4219-835c-2ad284cef1a5",
+  "versionId": "dec4dcb1-835a-4077-b7c6-d044e2901999",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "e09c76421fdd95e03893b2b418c491cf8b8a4f38e58c627abef176a828ea5b9d"
