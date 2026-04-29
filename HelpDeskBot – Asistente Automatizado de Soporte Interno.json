@@ -3813,7 +3813,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.chat.id }}",
-        "text": "=Reporte general de solicitudes \n------------------------------------------\nUltimo Movimiento:\nID: {{ $json.id_ticket }}\nTipo: {{ $json.tipo }}\nPrioridad: {{ $json.prioridad }}\nDescripcion: {{ $json.descripcion }}\nEstado: {{ $json.estado }}\nCreado por: {{ $json.creado_por }}\nFecha de creacion: {{ $json.fecha_creacion }}",
+        "text": "=Reporte general de solicitudes \n------------------------------------------\nUltimo Movimiento:\nID: {{ $json.id_ticket }}\nTipo: {{ $json.tipo }}\nPrioridad: {{ $json.prioridad }}\nDescripcion: {{ $json.descripcion }}\nEstado: {{ $json.estado }}\nCreado por: {{ $json.creado_por }}\nFecha de creacion: {{ $json.fecha_creacion }}\n\nIngrese Menu o alguna palabra para regresar al inicio.",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -4110,7 +4110,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.chat.id }}",
-        "text": "=Estado de Solicitudes\n-----------------------------------------\n{{ $('Get row(s) in sheet4').all().map(item => \n`Id ticket: ${item.json.id_ticket}\nTipo: ${item.json.tipo}\nEstado: ${item.json.estado}`\n).join('\\n-----------------------------------------\\n') }}",
+        "text": "=Estado de Solicitudes\n-----------------------------------------\n{{ $('Get row(s) in sheet4').all().map(item => \n`Id ticket: ${item.json.id_ticket}\nTipo: ${item.json.tipo}\nEstado: ${item.json.estado}`\n).join('\\n-----------------------------------------\\n') }}\n\nIngrese Menu o alguna palabra para regresar al inicio.",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -4311,7 +4311,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.chat.id }}",
-        "text": "=Solicitudes\n------------------------------------------\n{{ $('Get row(s) in sheet6').all().map(fila => \n`ID: ${fila.json.id_ticket}\nTipo: ${fila.json.tipo}\nPrioridad: ${fila.json.prioridad}\nDescripción: ${fila.json.descripcion}\nEstado: ${fila.json.estado}\nCreado por: ${fila.json.creado_por}\nFecha: ${fila.json.fecha_creacion}`\n).join('\\n\\n------------------------------------------\\n') }}",
+        "text": "=Solicitudes\n------------------------------------------\n{{ $('Get row(s) in sheet6').all().map(fila => \n`ID: ${fila.json.id_ticket}\nTipo: ${fila.json.tipo}\nPrioridad: ${fila.json.prioridad}\nDescripción: ${fila.json.descripcion}\nEstado: ${fila.json.estado}\nCreado por: ${fila.json.creado_por}\nFecha: ${fila.json.fecha_creacion}`\n).join('\\n\\n------------------------------------------\\n') }}\n\nIngrese Menu o alguna palabra para regresar al inicio.",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -4335,7 +4335,7 @@
     {
       "parameters": {
         "chatId": "={{ $('Telegram Trigger').item.json.message.chat.id }}",
-        "text": "Configuraciones....",
+        "text": "=⚙️ PANEL DE CONFIGURACIÓN DEL SISTEMA Estado del Servicio: Conectado / Operativo Última Sincronización: Exitosa  Preferencias de Notificación:  Alertas críticas por mensaje directo.  Resumen diario de actividades.  Reportes de error activados.\nIngrese Menu o alguna palabra para regresar al inicio.",
         "additionalFields": {
           "appendAttribution": false
         }
@@ -5683,7 +5683,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "1cfdced4-85f9-424c-a9a3-0b61f2c8d93a",
+  "versionId": "43486569-b828-4219-835c-2ad284cef1a5",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "e09c76421fdd95e03893b2b418c491cf8b8a4f38e58c627abef176a828ea5b9d"
