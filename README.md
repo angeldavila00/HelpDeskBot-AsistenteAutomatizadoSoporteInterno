@@ -52,7 +52,7 @@ El archivo `.json` contiene la lógica estructurada de la siguiente manera:
 
 ##  Cómo Instalar el Workflow
 
-1.  Copia el contenido del archivo `HelpDeskBot - Versión Final Conectada.json`.
+1.  Copia el contenido del archivo `HelpDeskBot – Asistente Automatizado de Soporte Interno.json`.
 2.  En tu instancia de **n8n**, crea un nuevo flujo de trabajo (Workflow).
 3.  Pega el contenido directamente en el lienzo (canvas).
 4.  Configura las credenciales:
